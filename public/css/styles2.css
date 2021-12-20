@@ -1,0 +1,65 @@
+.page-visi{
+    background-color: #fff;
+    padding: 3rem 0;
+}
+
+.page-visi .content-card h3{
+    margin-bottom: 2px;
+    color:#7D2639 !important;
+}
+
+.page-visi p,ol{
+    color: #7D2639;
+    list-style-type: circle;
+    padding: 2rem 2rem;
+    top:0;
+    box-shadow: 7px 10px 25px -9px rgba(0,0,0,0.52);
+}
+
+.page-visi .nav-link{
+    color: #7D2639;
+    font-size: 20px;
+    margin: 0 3px;
+    border: solid;
+    border-radius: 30px !important;
+    ;
+}
+
+.page-visi .nav-link:hover{
+    background-color:#7D2639;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.page-visi .nav-pills .nav-link.active{
+    background-color:#7D2639;
+    border-radius: 10px;
+    
+}
+.page-visi img{
+    box-shadow: 7px 10px 25px -9px rgba(0,0,0,0.52);
+    width: 80%;
+}
+
+.card-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #c5c5c5;
+    margin-bottom: 30px;
+    float: left;
+    border-radius: 10px;
+}
+.card-box .card-thumbnail {
+    max-height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 1s;
+}
+.card-box .card-thumbnail:hover {
+    transform: scale(1.2);
+}
+.card-box h3 a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
